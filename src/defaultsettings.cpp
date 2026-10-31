@@ -343,7 +343,7 @@ void set_default_settings()
 	settings->setDefault("enable_translucent_foliage", "false");
 
 	// Effects Shadows
-	settings->setDefault("enable_dynamic_shadows", "false");
+	settings->setDefault("enable_dynamic_shadows", "true");
 	settings->setDefault("shadow_strength_gamma", "1.0");
 	settings->setDefault("shadow_poisson_filter", "true");
 	settings->setDefault("shadow_update_frames", "16");
